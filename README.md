@@ -62,8 +62,6 @@ For further information on topics and technologies covered, see [TOPICS.md][3].
 ### Course 1: Applying AI to 2D Medical Imaging Data
 2D imaging, such as X-ray, is widely used when making critical decisions about patient care and accessible by most healthcare centers around the world. With the advent of deep learning for non-medical imaging data over the past half decade, the world has quickly turned its attention to how AI could be specifically applied to medical imaging to improve clinical decision-making and to optimize workflows. Learn the fundamental skills needed to work with 2D medical imaging data and how to use AI to derive clinically-relevant insights from data gathered via different types of 2D medical imaging such as x-ray, mammography, and digital pathology. Extract 2D images from DICOM files and apply the appropriate tools to perform exploratory data analysis on them. Build different AI models for different clinical scenarios that involve 2D images and learn how to position AI tools for regulatory approval.
 
-![Sample dog classifier output](./images/sample-dog-output.png)
-
 **Lesson 1: Introduction to AI for 2D Medical Imaging.** 
 - Outcomes:
   - Explain what AI for 2D medical imaging is and why it is relevant.
@@ -75,9 +73,9 @@ For further information on topics and technologies covered, see [TOPICS.md][3].
   - Learn how to statistically assess an algorithm’s performance.
   - Understand the key stakeholders in the 2D medical imaging space.
 - Exercises:
-  - [clinical-applications][11]
-  - [apply-machine-learning][12] 
-  - [performance-of-ml][13]
+  - [1-clinical-applications][11]
+  - [2-apply-machine-learning][12] 
+  - [3-performance-of-ml][13]
 
 **Lesson 3: 2D Medical Imaging Exploratory Data Analysis.** 
 - Outcomes:
@@ -87,9 +85,9 @@ For further information on topics and technologies covered, see [TOPICS.md][3].
   - Prepare a DICOM dataset for machine learning.
   - Explore a dataset in preparation for machine learning.
 - Exercises:
-  - [explore-2d-imaging-properties][14] 
-  - [prepare-dicom-images for-ml][15] 
-  - [exploring-population-metadata][16] 
+  - [1-explore-2d-imaging-properties][14] 
+  - [2-prepare-dicom-images for-ml][15] 
+  - [3-exploring-population-metadata][16] 
 
 **Lesson 4: Classification Models of 2D Medical Images.** 
 - Outcomes:
@@ -100,12 +98,12 @@ For further information on topics and technologies covered, see [TOPICS.md][3].
   - Fine-tune an existing CNN architecture for transfer learning with 2D medical imaging applications.
   - Evaluate a model’s performance and optimize its parameters.
 - Exercises:
-  - [differentiate-between-models][17] 
-  - [split-dataset-for-model-development][18] 
-  - [obtaining-a-gold-standard][19] 
-  - [image-pre-processing-for-model-training][20] 
-  - [fine-tuning-cnns-for- classification][21] 
-  - [evaluating-your-model][22] 
+  - [1-differentiate-between-models][17] 
+  - [2-split-dataset-for-model-development][18] 
+  - [3-obtaining-a-gold-standard][19] 
+  - [4-image-pre-processing-for-model-training][20] 
+  - [5-fine-tuning-cnns-for- classification][21] 
+  - [6-evaluating-your-model][22] 
 
 **Lesson 5: Translating AI Algorithms for Clinical Settings with the FDA.** 
 - Outcomes:
@@ -114,9 +112,9 @@ For further information on topics and technologies covered, see [TOPICS.md][3].
   - Translate algorithm performance statistics into clinically meaningful information that can trusted by professionals.
   - Learn how to create an FDA validation plan.
 - Exercises:
-  - [Intended-use-and-clinical-impact][23] 
-  - [algorithmic-limitations][24] 
-  - [translate-performance-into-clinical-utility][25] 
+  - [1-Intended-use-and-clinical-impact][23] 
+  - [2-algorithmic-limitations][24] 
+  - [3-translate-performance-into-clinical-utility][25] 
 
 **Project: Pneumonia Detection from Chest X-Rays.** 
 - Udacity Repo: [AIHCND_C2_Starter][5]
@@ -362,12 +360,12 @@ This project is licensed under the MIT License. See [LICENSE][4] for details.
 [44]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-2-intro-to-dsp/exercises/3-fourier-transform
 [45]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-2-intro-to-dsp/exercises/4-spectrograms
 [46]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-3-intro-to-sensors/exercises/1-step-cadence
-[47]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-datalesson-3-intro-to-sensors/exercises/2-ppg-peaks
+[47]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-3-intro-to-sensors/exercises/2-ppg-peaks
 [48]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-3-intro-to-sensors/exercises/3-ppg-snr
-[49]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-datalesson-4-activity-classifier/exercises/1-data-exploration
+[49]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-4-activity-classifier/exercises/1-data-exploration
 [50]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-4-activity-classifier/exercises/2-feature-extraction
 [51]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-4-activity-classifier/exercises/3-quirk-in-the-dataset
-[52]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-datalesson-5-ecg-processing/exercises/1-pan-tompkins-algorithm
+[52]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-5-ecg-processing/exercises/1-pan-tompkins-algorithm
 [53]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-5-ecg-processing/exercises/2-af-features
 [54]:https://github.com/robstraker/ai-for-healthcare-nanodegree-udacity/tree/master/course-4-wearable-device-data/lesson-5-ecg-processing/exercises/3-atrial-fibrillation
 
